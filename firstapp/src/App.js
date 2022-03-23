@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Car from './Car';
+// import Car from './Car';
 import Xe from './Xe';
+
 function App() {
   const html = (
     <div className="App">
@@ -16,10 +17,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React <Car/>
+          Learn React 
         </a>
-        <Car/>
-        <Xe/>
+        <Xe colorCar='lightgreen' value='Xanh lá cây'/>
+        <Xe colorCar='yellow' value='Vàng'/>
       </header>
     </div>
   );
