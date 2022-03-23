@@ -4,13 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const sang =<h1> Sang yêu Nhi trái đất</h1>;
-const Nhi = <input type='text' />;
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {sang}
-    {Nhi}
   </React.StrictMode>,
   document.getElementById('root')
 );
