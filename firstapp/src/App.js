@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 // import Car from './Car';
-import Xe from './Xe';
-
+//import Xe from './Xe';
+import MyForm from './MyForm';
 function App() {
   const html = (
     <div className="App">
@@ -19,7 +19,8 @@ function App() {
         >
           Learn React 
         </a>
-        <Xe colorCar='lightgreen' value='Xanh lá cây'/>
+        {/* <Xe colorCar='lightgreen' value='Xanh lá cây'/> */}
+        <MyForm/>
       </header>
     </div>
   );
